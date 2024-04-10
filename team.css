@@ -1,12 +1,13 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(248, 255, 255, 1);
 }
 
 * {
   font-family: sans-serif;
 }
-
 /* 
 header */
 
@@ -63,6 +64,60 @@ header nav li .signup {
 header #menu {
   display: none;
   font-size: 35px;
+}
+
+/* main */
+
+h1 {
+  text-align: center;
+}
+
+.teampage .firstmember .iconsfooter {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+}
+
+.teampage .firstmember .iconsfooter i {
+  font-size: 25px;
+  color: #ec7323;
+}
+
+.teampage .firstmember p {
+  color: gray;
+}
+
+.teampage .firstmember img {
+  height: 350px;
+  width: auto;
+  border-radius: 15px;
+}
+
+.teampage {
+  padding: 50px 0px;
+}
+
+.teampage .firstmember {
+  width: 325px;
+  height: 525px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+
+.teampage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  column-gap: 80px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* footer */
